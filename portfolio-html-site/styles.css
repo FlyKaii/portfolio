@@ -170,7 +170,7 @@ body {
 
 .portfolio-img-background-main {
     transition: 2s;
-    height: 305.3px;
+    height: 300%;
     width: 100%;
     background-size: cover;
     background-position: center;
