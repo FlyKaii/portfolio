@@ -86,7 +86,7 @@ body {
     .logo-wrapper-main {
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 50px;
         width: 100%;
     }
     /* Nav Bar at the Top */
