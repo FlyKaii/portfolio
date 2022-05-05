@@ -86,7 +86,7 @@ body {
     .logo-wrapper-main {
         display: block;
         margin-left: auto;
-        margin-right: 50px;
+        margin-right: auto;
         width: 100%;
     }
     /* Nav Bar at the Top */
@@ -192,7 +192,7 @@ body {
 }
 
 .logo-wrapper img {
-    width: 50%;
+    width: auto%;
     margin-bottom: 20px;
 }
 
