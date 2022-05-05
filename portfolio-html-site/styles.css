@@ -85,7 +85,7 @@ body {
     /*logo in the middle*/
     .logo-wrapper-main {
         display: block;
-        margin-left: 200px;
+        margin-left: auto;
         margin-right: auto;
         width: 60%;
     }
