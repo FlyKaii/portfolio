@@ -146,7 +146,7 @@ body {
 
 .portfolio-img-background {
     transition: 2s;
-    height: 305.3px;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -156,7 +156,7 @@ body {
 
 .static-portfolio-img-background {
     transition: 2s;
-    height: 305.3px;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
