@@ -42,6 +42,7 @@ html {
     opacity: 1;
   }
   100% {
+    visibility: hidden;
     opacity: 0;
     left: -9999px; 
   }
