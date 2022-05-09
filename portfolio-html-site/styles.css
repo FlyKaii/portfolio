@@ -286,7 +286,7 @@ body {
 }
 /* Testing hovering to reveal full image*/
 .thumbnail:hover {
-    display:grid;
+    display:inline-grid;
     position:relative;
     top:-25px;
     left:-35px;
