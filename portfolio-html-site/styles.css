@@ -32,7 +32,8 @@ html {
 }
 
 .animation-container:hover {
-    opacity: 0;
+    background: none;
+}
     
 .container {
     display: grid;
