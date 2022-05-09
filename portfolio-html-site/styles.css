@@ -25,6 +25,8 @@ html {
         box-sizing:border-box;
         background-position: center;
         background-repeat: no-repeat;
+        animation-delay:2s;
+        opacity: 0;
 }
 
 .container {
