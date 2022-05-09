@@ -16,6 +16,8 @@ html {
 }
 
 .animation-container {
+        animation-delay:2s;
+        opacity: 0;
         background-image: url("images/logos/designs by kai coloured.png");
         width:100%;
         height:100%;
@@ -25,8 +27,7 @@ html {
         box-sizing:border-box;
         background-position: center;
         background-repeat: no-repeat;
-        animation-delay:2s;
-        opacity: 0;
+        
 }
 
 .container {
