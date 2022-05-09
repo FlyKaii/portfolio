@@ -377,12 +377,12 @@ body {
     height: auto;
 }
 /* Flip on box*/
-.flip-container {
+.card-flip {
         margin: 50px;
         perspective: 1000;
         display: inline-block;
     }
-    .flip-container:hover .card {
+    .card-flip:hover .grid {
         transform: rotateY(180deg);
     }
     .card, .front, .back {
