@@ -311,10 +311,11 @@ body {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 250px 250px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
     grid-template-areas:
         "one two three four"
+        ". . . ."
         "five six seven eight";
 }
 
