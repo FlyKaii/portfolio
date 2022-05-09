@@ -382,7 +382,7 @@ body {
         perspective: 1000;
         display: inline-block;
     }
-    .card-flip:hover .grid {
+    .card-flip:hover {
         transform: rotateY(180deg);
     }
     .card, .front, .back {
