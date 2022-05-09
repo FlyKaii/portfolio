@@ -369,13 +369,6 @@ body {
     height: auto;
 }
 
-.image-one {
-    display: grid;
-    grid-area: four;
-    width: auto;
-    height: auto;
-}
-
 .image-eight {
     display: grid;
     grid-area: eight;
