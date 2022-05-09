@@ -73,6 +73,11 @@ body {
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "one one one one one"
+        "two two two two two"
+        "three three three three three"
 }
 
 @media (max-width: 1050px) and (orientation: portrait) {
