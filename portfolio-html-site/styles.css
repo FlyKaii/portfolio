@@ -307,8 +307,8 @@ body {
 
 .grid {
     display: grid;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 100px;
     padding-right: 100px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
