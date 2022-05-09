@@ -144,6 +144,13 @@ body {
 }
 
 .portfolio-img-background:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:1000px;
+    height:auto;
+    display:block;
+    z-index:999;
     transition: 1s;
     filter: none!important;
 }
