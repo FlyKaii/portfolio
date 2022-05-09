@@ -318,9 +318,67 @@ body {
         "five six seven eight";
 }
 
-.test-image {
+/*IMAGES ONE TO EIGHT ON THE TEST PAGE*/
+
+.image-one {
+    display: grid;
+    grid-area: one;
+    width: auto;
+    height: auto;
+}
+
+.image-two {
+    display: grid;
+    grid-area: two;
+    width: auto;
+    height: auto;
+}
+
+.image-three {
+    display: grid;
+    grid-area: three;
+    width: auto;
+    height: auto;
+}
+
+.image-four {
     display: grid;
     grid-area: four;
+    width: auto;
+    height: auto;
+}
+
+.image-five {
+    display: grid;
+    grid-area: five;
+    width: auto;
+    height: auto;
+}
+
+.image-six {
+    display: grid;
+    grid-area: six;
+    width: auto;
+    height: auto;
+}
+
+.image-seven {
+    display: grid;
+    grid-area: seven;
+    width: auto;
+    height: auto;
+}
+
+.image-one {
+    display: grid;
+    grid-area: four;
+    width: auto;
+    height: auto;
+}
+
+.image-eight {
+    display: grid;
+    grid-area: eight;
     width: auto;
     height: auto;
 }
