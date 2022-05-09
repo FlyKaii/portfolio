@@ -378,7 +378,7 @@ body {
 }
 
 .loading-animation {
-    display: absolute;
+    display: contents;
     width: 100%;
     height: auto;
     
