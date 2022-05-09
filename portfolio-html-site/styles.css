@@ -386,7 +386,7 @@ body {
         transform: rotateY(180deg);
         transition: 0.5s;
         transform-style: preserve-3d;
-        position: relative;
+        position: absolute;
     }
     .card, .front, .back {
         width: 130px;
