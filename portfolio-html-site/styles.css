@@ -384,6 +384,11 @@ body {
     }
     .card-flip:hover {
         transform: rotateY(180deg);
+        transition: 0.5s;
+        transform-style: preserve-3d;
+        position: relative;
+        backface-visibility: hidden;
+        position: absolute;
     }
     .card, .front, .back {
         width: 130px;
@@ -402,9 +407,4 @@ body {
         z-index: 1;
         transform: rotateY(180deg);
         background: url("images/card-front.jpg") no-repeat;
-    }
-    .back {
-        z-index: 2; /* back side, placed above front */
-        transform: rotateY(0deg);
-        background: url("images/card-back.jpg") no-repeat;
     }
