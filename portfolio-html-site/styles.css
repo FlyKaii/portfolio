@@ -302,14 +302,17 @@ body {
     height: 40px;
     display: flex;
 }
-/* Testing hovering to reveal full image*/
-.thumbnail:hover {
-    display:inline-grid;
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:1000px;
-    height:auto;
-    display:block;
-    z-index:999;
+
+/*grid for test page*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
+    grid-template-areas:
+        "top top top"
+        "bot bot bot"
 }
+
+
+
