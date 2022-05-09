@@ -34,7 +34,7 @@ html {
           animation: seconds 1.0s forwards;
           animation-iteration-count: 1;
           animation-delay: 1s;
-          position: relative;
+          position: center;
         }
 @-webkit-keyframes seconds {
   0% {
