@@ -314,5 +314,10 @@ body {
         "bot bot bot"
 }
 
-
+.test-image {
+    display: grid;
+    grid-area: bot;
+    width: 300px;
+    height: auto;
+}
 
