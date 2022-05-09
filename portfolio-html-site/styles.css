@@ -314,14 +314,14 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "1 2 3 4"
-        "5 6 7 8";
+        "one two three four"
+        "five six seven eight";
 }
 
 .test-image {
     display: grid;
-    grid-area: 4;
-    width: 300px;
+    grid-area: four;
+    width: auto;
     height: auto;
 }
 
