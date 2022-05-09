@@ -25,7 +25,6 @@ html {
         border:5px solid red;
         */
         box-sizing:border-box;
-        background-position: center;
         background-repeat: no-repeat;
         transition: background-color 1s linear;
         background-color: transparent;
