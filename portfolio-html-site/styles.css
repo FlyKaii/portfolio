@@ -387,8 +387,6 @@ body {
         transition: 0.5s;
         transform-style: preserve-3d;
         position: relative;
-        backface-visibility: hidden;
-        position: absolute;
     }
     .card, .front, .back {
         width: 130px;
