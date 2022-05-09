@@ -30,7 +30,7 @@ html {
 }
 .animation-container {
     transition: 2s;
-    z-index: -1;
+    height: 0%;
 }
 .container {
     display: grid;
