@@ -16,7 +16,7 @@ html {
 }
 
 .animation-container {
-        position: center;
+        background-position:center center;
         transition: background-image 1s linear;
         background-image: url("images/logos/designs by kai coloured.png");
         width:100%;
