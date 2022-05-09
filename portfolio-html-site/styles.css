@@ -32,7 +32,7 @@ html {
 }
 
 .animation-container:hover {
-    background: none;
+    display: none;
 }
     
 .container {
