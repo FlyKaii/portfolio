@@ -376,3 +376,10 @@ body {
     width: auto;
     height: auto;
 }
+
+.loading-animation {
+    display: absolute;
+    width: 100%;
+    height: auto;
+    
+}
