@@ -133,9 +133,10 @@ body {
 }
 
 .portfolio-item-wrapper:hover {
-    position: absolute; 
+    position: relative; 
     width:100%;
     height:100%;
+    grid-area: 1;
     display:grid;
     z-index:999;
     transition: 1s;
@@ -143,9 +144,10 @@ body {
 }
 
 .portfolio-img-background:hover {
-    position: absolute; 
+    position: relative; 
     width:100%;
     height:100%;
+    grid-area: 1;
     display:grid;
     z-index:999;
     transition: 1s;
