@@ -134,19 +134,16 @@ body {
 
 .portfolio-item-wrapper:hover {
     position: relative; 
-    left: 50%;
-    transform: translateX(-50%);
     width:300%;
     height:auto;
     display:grid;
     z-index:999;
-    transition: 3s;
+    transition: 0.5s;
     filter: none;
 }
 
 .portfolio-img-background:hover {
     position: relative; 
-    left: 50%;
     width:300%;
     height:auto;
     display:grid;
