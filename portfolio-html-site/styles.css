@@ -151,7 +151,7 @@ body {
     height:auto;
     display:grid;
     z-index:999;
-    transition: 3s;
+    transition: 0.5s;
     filter: none!important;
 }
 
