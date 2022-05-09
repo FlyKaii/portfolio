@@ -141,7 +141,7 @@ body {
     position: relative; 
     width:100%;
     height:100%;
-    grid-area: two;
+    grid-area: one, two, three;
     display:grid;
     z-index:999;
     transition: 1s;
@@ -152,7 +152,7 @@ body {
     position: relative; 
     width:100%;
     height:100%;
-    grid-area: two;
+    grid-area: one, two, three;
     display:grid;
     z-index:999;
     transition: 1s;
