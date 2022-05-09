@@ -134,21 +134,21 @@ body {
 
 .portfolio-item-wrapper:hover {
     position: relative; 
-    width:300%;
-    height:auto;
+    width:100%;
+    height:100%;
     display:grid;
     z-index:999;
-    transition: 0.5s;
+    transition: 1s;
     filter: none;
 }
 
 .portfolio-img-background:hover {
     position: relative; 
-    width:300%;
-    height:auto;
+    width:100%;
+    height:100%;
     display:grid;
     z-index:999;
-    transition: 0.5s;
+    transition: 1s;
     filter: none!important;
 }
 
