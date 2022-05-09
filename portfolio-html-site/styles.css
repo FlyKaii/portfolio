@@ -376,33 +376,3 @@ body {
     width: auto;
     height: auto;
 }
-/* Flip on box*/
-.card-flip {
-        margin: 50px;
-        perspective: 1000;
-        display: inline-block;
-    }
-    .card-flip:hover {
-        transform: rotateY(180deg);
-        transition: 0.5s;
-        transform-style: preserve-3d;
-        position: absolute;
-    }
-    .card, .front, .back {
-        width: 130px;
-        height: 195px;
-    }
-    .card {
-        transition: 0.5s;
-        transform-style: preserve-3d;
-        position: relative;
-    }
-    .front, .back {
-        backface-visibility: hidden;
-        position: absolute;
-    }
-    .front {
-        z-index: 1;
-        transform: rotateY(180deg);
-        background: url("images/card-front.jpg") no-repeat;
-    }
