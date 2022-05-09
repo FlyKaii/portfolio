@@ -42,7 +42,7 @@ html {
   }
   100% {
     max-height: 0;
-    opacity: 0;
+    transform: scaleY(0);
     left: -9999px; 
   }
 }
@@ -51,8 +51,7 @@ html {
     opacity: 1;
   }
   100% {
-    opacity: 0;
-    left: -9999px; 
+    transform: scaleY(0);
   }
 }
 
