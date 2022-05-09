@@ -31,6 +31,9 @@ html {
         background-color: transparent;
 }
 
+.animation-container:hover {
+    opacity: 0;
+    
 .container {
     display: grid;
     grid-template-columns: 1fr;
