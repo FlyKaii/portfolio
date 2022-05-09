@@ -42,7 +42,7 @@ html {
     opacity: 1;
   }
   100% {
-    visibility: hidden;
+    max-height: 0;
     opacity: 0;
     left: -9999px; 
   }
