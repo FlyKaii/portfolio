@@ -24,7 +24,9 @@ html {
         /* RED BORDER ON OUTSIDE
         border:5px solid red;
         */
+        position: center;
         box-sizing:border-box;
+    
         background-repeat: no-repeat;
         transition: background-color 1s linear;
         background-color: transparent;
@@ -34,7 +36,7 @@ html {
           animation: seconds 1.0s forwards;
           animation-iteration-count: 1;
           animation-delay: 1s;
-          position: center;
+          position: relative;
         }
 @-webkit-keyframes seconds {
   0% {
