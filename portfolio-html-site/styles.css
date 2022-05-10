@@ -6,31 +6,13 @@ body {
     font-weight: 600;
     margin: 0px;
     height:100%;
-    overflow:hidden;
 }
 
 html {
   margin:0;
   height:100%;
-  overflow:hidden;
 }
 
-.animation-container {
-        background-position:center center;
-        transition: background-color 1s linear;
-        background-image: url("images/logos/designs by kai coloured.png");
-        width:100%;
-        height:100%;
-        /* RED BORDER ON OUTSIDE
-        border:5px solid red;
-        */
-        box-sizing:border-box;
-        background-repeat: no-repeat;
-        z-index: 99;
-}
-.animation-container {
-    transition: 2s;
-    height: 0%;
 }
 .container {
     display: grid;
@@ -399,14 +381,5 @@ html {
     display: grid;
     grid-area: eight;
     width: auto;
-    height: auto;
-}
-
-.loading-animation {
-    background-image: url(images/logos/designs by kai coloured.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
     height: auto;
 }
