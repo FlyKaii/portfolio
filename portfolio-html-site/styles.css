@@ -5,14 +5,19 @@ body {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
     margin: 0px;
+    height:100%;
 }
 
+html {
+  margin:0;
+  height:100%;
+}
+
+}
 .container {
     display: grid;
     grid-template-columns: 1fr;
 }
-
-
 /* Nav styles */
 
 .nav-wrapper {
@@ -74,7 +79,12 @@ body {
 
 .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "no no no no no"
+        "no main main main no"
+        "no no no no no"
 }
 
 @media (max-width: 1050px) and (orientation: portrait) {
@@ -88,6 +98,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        position: relative;
     }
     /* Nav Bar at the Top */
     .nav-link-wrapper img {
@@ -134,11 +145,23 @@ body {
 }
 
 .portfolio-item-wrapper:hover {
-    transition: 2s;
+    position: relative; 
+    width:100%;
+    height:100%;
+    grid-area: main;
+    display:grid;
+    z-index:999;
+    transition: 1s;
     filter: none;
 }
 
 .portfolio-img-background:hover {
+    position: relative; 
+    width:100%;
+    height:100%;
+    grid-area: main;
+    display:grid;
+    z-index:999;
     transition: 1s;
     filter: none!important;
 }
@@ -285,4 +308,78 @@ body {
     width: 40px;
     height: 40px;
     display: flex;
+}
+
+/*grid for test page*/
+
+.grid {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.25fr 1fr;
+    grid-template-areas:
+        "one two three four"
+        ". . . ."
+        "five six seven eight";
+}
+
+/*IMAGES ONE TO EIGHT ON THE TEST PAGE*/
+
+.image-one {
+    display: grid;
+    grid-area: one;
+    width: auto;
+    height: auto;
+}
+
+.image-two {
+    display: grid;
+    grid-area: two;
+    width: auto;
+    height: auto;
+}
+
+.image-three {
+    display: grid;
+    grid-area: three;
+    width: auto;
+    height: auto;
+}
+
+.image-four {
+    display: grid;
+    grid-area: four;
+    width: auto;
+    height: auto;
+}
+
+.image-five {
+    display: grid;
+    grid-area: five;
+    width: auto;
+    height: auto;
+}
+
+.image-six {
+    display: grid;
+    grid-area: six;
+    width: auto;
+    height: auto;
+}
+
+.image-seven {
+    display: grid;
+    grid-area: seven;
+    width: auto;
+    height: auto;
+}
+
+.image-eight {
+    display: grid;
+    grid-area: eight;
+    width: auto;
+    height: auto;
 }
